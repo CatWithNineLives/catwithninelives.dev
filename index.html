@@ -20,12 +20,39 @@
                 padding-right: 2em;
                 text-align: center;
                 border-radius: 8px;
+                animation: pulse 2s infinite ease-in-out;
+            }
+            .contact-strip {
+                margin-top: 2rem;
+                font-size: 1rem;
+                letter-spacing: 0.5px;
+                padding: 0.5em 1em;
+                color: cadetblue;
+                text-align: center;
+                width: 100%;
+                max-width: 600px;
+                word-break: break-word;
+            }
+
+            @keyframes pulse {
+                0% {
+                    box-shadow: 0 0 0 0 #507A7E;
+                    }
+                70% {
+                    box-shadow: 0 0 0 8px rgba(62, 115, 115, 0);
+                    }
+                100% {
+                    box-shadow: 0 0 0 0 rgba(62, 115, 115, 0);
+                }
             }
         </style>
     </head>
     <body>
         <div class="box">
             <h1>🚧 Work in Progress 👷🏽‍♀️🛠️</h1>
+        </div>
+        <div class="contact-strip">
+            Contact : <href a="mailto:niveditasingh0627@gmail.com">niveditasingh0627@gmail.com</href>
         </div>
     </body>
 </html>
